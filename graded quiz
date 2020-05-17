@@ -1,0 +1,178 @@
+####Graded Quiz: Test your Project understanding draft#####
+
+1.Question 1
+Which language did we use to develop our program?
+
+
+Eclipse ///ans
+Ubuntu
+Java
+C
+
+
+
+
+2.Question 2
+Which of the Following is a Disadvantage of Java?
+
+
+Java is slower than directly compiled languages like C  ///ANS
+
+
+Java is dynamically typed
+
+
+Java is too old to be used on modern operating systems
+
+
+Java is too expensive for personal developers to get started
+
+Correct
+Correct! Java is slower than compiled languages than C because it must first be compiled into JVM machine code and then this code must be interpreted into normal machine code. A language like C directly translates into normal machine code, and is thus faster.
+
+
+3.Question 3
+How are System.out.print(...) and System.out.println(...) different
+
+
+Print puts spaces between words while println puts a new line between words
+
+
+Println places a new line after the statement while print does not ///ANS 
+
+
+They are not different
+
+
+None of the options are correct
+
+Correct
+Println indicates that we place a new line after outputting the statement in between the parentheses, while print does not.
+
+
+4.Question 4
+Which of the following is correct Java code
+
+
+System.out.println(I + like + to + run);
+
+
+System.out.println("I like to run");  ///ANS
+
+
+System.out.println("I like to run")
+
+Correct
+This is correct Java code. The string is contained inside of the parentheses and double quotations. We also have proper capitalization and a semicolon at the end
+
+
+5.Question 5
+True or False? An else statement can exist without an if statement.
+
+
+True
+
+
+False  ///ANS
+
+Correct
+An else statement only occurs executes if the if statement evaulates to False. As a result we need an if statement anytime we have a else statement, however not every if statement requires an else statement.
+
+
+6.Question 6
+According to Java's definition of a floating point, which of the following are floating point values?
+
+
+22
+
+
+14.121221
+
+Correct
+This is a floating point because it contains a decimal point. There can be any number of values after the decimal point.
+
+
+-12.2
+
+Correct
+This is a floating point because it contains a decimal point. Doubles can be negative
+
+
+-50.0
+
+Correct
+This is a floating point because it contains a decimal point. Even if the value after the decimal point is 0, it is still a floating point number.
+
+
+7.Question 7
+What index do arrays start counting at in Java? (What is always the first index in an array?)
+
+
+0    ////ANS
+
+
+Array.size()
+
+
+Array.size() - 1
+
+
+1
+
+Correct
+Arrays in Java start at index 0. This is because the index measures the offset of each value from the first value, thus the first value is offset by 0 spaces from itself.
+
+
+8.Question 8
+What happens if a user enters more than 250 customers into our bank.
+
+
+The program terminates and throws an exception  ///ANS.
+
+
+The program silently creates an error, by overwriting the first customer with the new customer's data.
+
+
+The computer crashes due to an overflow error
+
+
+The program adds the 251st customer without error
+
+Correct
+In Java adding too many values to an array causes a memory problem, and will cause an exception. Unless handled (which we did not) the program will terminate and output an error message.
+
+9.Question 9
+How do you terminate a program in Java from inside the program?
+
+
+System.out.exit(2);
+
+
+System.exit(5);   ////ANS
+
+
+system.Exit(1);
+
+
+System.quit(2);
+
+Correct
+System.exit(status code); allows us to terminate our program when that line of code is executed.
+
+1 / 1 point
+
+Which of the following is not a valid loop-continuation condition?
+
+
+20 >= 15
+
+
+True
+
+
+int x = 5      ///ANS
+
+
+All of the above are valid
+
+Correct
